@@ -1,0 +1,12 @@
+Tree EditScriptJSCustom Caption='[Custom]' TopLevel='True' End
+PL AD-LCSC-Addons Command='ScriptingSystem:RunScript' Params='ProjectName=C:\Users\timon\Documents\AD-LCSC-Addons\AD-LCSC-Addons.PrjScr|ProcName=AD-LCSC-Addons.js>Prechecks' Caption='AD LCSC Addons' DefaultChecked=0 End
+
+Insertion User TargetID='MNNoDocument_File' RefID0='NoDoc' Link User PLID='AD-LCSC-Addons' End End
+Insertion User TargetID='MNSchematic_File' RefID0='SchDoc_File' Link User PLID='AD-LCSC-Addons' End End
+Insertion User TargetID='MNSchematic_Tools' RefID0='SchDoc_Tools' Link User PLID='AD-LCSC-Addons' End End
+Insertion User TargetID='MNSchematic_SchLibMenu' RefID0='SchLib_File' Link User PLID='AD-LCSC-Addons' End End
+Insertion User TargetID='MNSchematic_SchLibMenuTools' RefID0='SchLib_Tools' Link User1 PLID='AD-LCSC-Addons' End End
+Insertion User TargetID='MNPCBLib' RefID0='PcbLib_File' Link User PLID='AD-LCSC-Addons' End End
+Insertion User TargetID='MNPCBLib_Tools' RefID0='PcbLib_Tools' Link User PLID='AD-LCSC-Addons' End End
+Insertion User TargetID='MNPCB_File' RefID0='PcbDoc_File' Link User PLID='AD-LCSC-Addons' End End
+Insertion User TargetID='MNPCB_Tools' RefID0='PcbDoc_Tools' Link User PLID='AD-LCSC-Addons' End End
