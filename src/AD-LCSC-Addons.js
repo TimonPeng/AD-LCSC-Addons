@@ -74,33 +74,33 @@ var JSON = {
 // i18n
 var messages = {
   "zh-CN": {
-    "Search": "ËÑË÷",
-    "Pagination": "·ÖÒ³",
-    "Please enter search keyword": "ÇëÊäÈëËÑË÷¹Ø¼ü×Ö",
-    "Response failed: ": "ÇëÇóÊ§°Ü£º",
-    ", return code: ": "£¬·µ»Ø´úÂë£º",
-    "Request failed, return code: ": "ÇëÇóÊ§°Ü£¬·µ»Ø´úÂë£º",
-    "Request failed, please check your network": "ÇëÇóÊ§°Ü£¬Çë¼ì²éÍøÂç×´¿ö",
-    "No result": "ÎÞ½á¹û",
-    // ËÑË÷½á¹û±íÍ·
-    "Title(PartNO)": "±êÌâ(Áã¼þÃû³Æ)",
-    "Footprint": "·â×°",
+    "Search": "ï¿½ï¿½ï¿½ï¿½",
+    "Pagination": "ï¿½ï¿½Ò³",
+    "Please enter search keyword": "ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ø¼ï¿½ï¿½ï¿½",
+    "Response failed: ": "ï¿½ï¿½ï¿½ï¿½Ê§ï¿½Ü£ï¿½",
+    ", return code: ": "ï¿½ï¿½ï¿½ï¿½ï¿½Ø´ï¿½ï¿½ë£º",
+    "Request failed, return code: ": "ï¿½ï¿½ï¿½ï¿½Ê§ï¿½Ü£ï¿½ï¿½ï¿½ï¿½Ø´ï¿½ï¿½ë£º",
+    "Request failed, please check your network": "ï¿½ï¿½ï¿½ï¿½Ê§ï¿½Ü£ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½×´ï¿½ï¿½",
+    "No result": "ï¿½Þ½ï¿½ï¿½",
+    // ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Í·
+    "Title(PartNO)": "ï¿½ï¿½ï¿½ï¿½(ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½)",
+    "Footprint": "ï¿½ï¿½×°",
     "Value": "Öµ",
-    "Manufacturer": "ÖÆÔìÉÌ",
-    "SMT": "ÌùÆ¬",
-    "SMT Type": "ÌùÆ¬ÀàÐÍ",
-    "Description": "ÃèÊö",
-    "Y": "¿É",
-    "Basic": "»ù´¡",
-    "Extend": "À©Õ¹",
+    "Manufacturer": "ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½",
+    "SMT": "ï¿½ï¿½Æ¬",
+    "SMT Type": "ï¿½ï¿½Æ¬ï¿½ï¿½ï¿½ï¿½",
+    "Description": "ï¿½ï¿½ï¿½ï¿½",
+    "Y": "ï¿½ï¿½",
+    "Basic": "ï¿½ï¿½ï¿½ï¿½",
+    "Extend": "ï¿½ï¿½Õ¹",
     // info
-    "$": "£¤",
-    "LCSC Part#: ": "Á¢´´ÉÌ³Ç±àºÅ£º",
-    "Advertising": "¹ã¸æÎ»ÕÐ×â",
-    "Request document infomations failed": "ÇëÇóÎÄµµÐÅÏ¢Ê§°Ü",
-    "Convert document failed": "×ª»»ÎÄ¼þÊ§°Ü",
+    "$": "ï¿½ï¿½",
+    "LCSC Part#: ": "ï¿½ï¿½ï¿½ï¿½ï¿½Ì³Ç±ï¿½Å£ï¿½",
+    "Advertising": "ï¿½ï¿½ï¿½Î»ï¿½ï¿½ï¿½ï¿½",
+    "Request document infomations failed": "ï¿½ï¿½ï¿½ï¿½ï¿½Äµï¿½ï¿½ï¿½Ï¢Ê§ï¿½ï¿½",
+    "Convert document failed": "×ªï¿½ï¿½ï¿½Ä¼ï¿½Ê§ï¿½ï¿½",
     "A schematic document (*.SchDoc) or pcb document (*.PcbDoc) must be opened":
-      "ÇëÏÈ´ò¿ªÒ»¸öÔ­ÀíÍ¼ÎÄ¼þ (*.SchDoc) »ò ·â×°¿âÎÄ¼þ (*.PcbDoc)"
+      "ï¿½ï¿½ï¿½È´ï¿½Ò»ï¿½ï¿½Ô­ï¿½ï¿½Í¼ï¿½Ä¼ï¿½ (*.SchDoc) ï¿½ï¿½ ï¿½ï¿½×°ï¿½ï¿½ï¿½Ä¼ï¿½ (*.PcbDoc)"
   }
 };
 
@@ -126,7 +126,7 @@ if (searchSource === "SZLCSC") {
 var edaVersion = "6.4.7";
 
 // convert server
-var convertApi = "https://ad-lcsc-addone.timonpeng.com/";
+var convertApi = "http://127.0.0.1:1456";
 
 // i18n
 var locale = config["locale"] || "en";
@@ -445,8 +445,12 @@ function searchKeyword(page) {
               } else {
                 SearchResult.Cols(valueFlag)(i) = "";
               }
-              // "Manufacturer"
-              SearchResult.Cols(manufacturerFlag)(i) = summary.BOM_Manufacturer;
+              // "Manufacturer" with error handling, crashing alot
+              if(summary.BOM_Manufacturer === undefined || summary.BOM_Manufacturer === null || summary.BOM_Manufacturer === "null"){
+                summary.BOM_Manufacturer = "";
+              }
+                SearchResult.Cols(manufacturerFlag)(i) = summary.BOM_Manufacturer;
+              
               // "SMT"
               if (summary["BOM_JLCPCB SMD"] === "Yes") {
                 SearchResult.Cols(smtFlag)(i) = i18n("Y");
@@ -649,63 +653,7 @@ function onPartSelected(Sender) {
         }
       );
 
-      // get preview image
-      fetch(
-        {
-          "url": listApi + partNum,
-          "method": "GET",
-          "async": true,
-          "headers": {},
-          "data": {
-            "version": edaVersion,
-            "_": getTimestamp()
-          }
-        },
-        function (res) {
-          if (!res.error) {
-            var response = res.response;
-
-            if (response.code === 200 && response.msg === null) {
-              var url = response.result;
-
-              if (url) {
-                var urlSplit = url.split(".");
-                var extension = urlSplit[urlSplit.length - 1];
-
-                fetch(
-                  {
-                    "url": url,
-                    "method": "GET",
-                    "async": true,
-                    "headers": {},
-                    "data": {}
-                  },
-                  function (imgRes) {
-                    if (!res.error) {
-                      var imgResponse = imgRes.response;
-
-                      var stream = new ActiveXObject("ADODB.Stream");
-                      stream.Open();
-                      stream.Type = 1;
-                      stream.Write(imgResponse);
-                      stream.Position = 0;
-                      var savePath =
-                        cacheDir + "\\" + partNum + "_PREVIEW." + extension;
-                      stream.savetofile(savePath, 2);
-
-                      if (
-                        SearchResult.Cols(partNumberFlag)(selected) === partNum
-                      ) {
-                        PreviewImg.Picture.LoadFromFile(savePath);
-                      }
-                    }
-                  }
-                );
-              }
-            }
-          }
-        }
-      );
+      // preview image removed due to dead api endpoint
     }
   }
 }

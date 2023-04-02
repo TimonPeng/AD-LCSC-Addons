@@ -5,3 +5,4 @@ __Previews/
 *.exe
 
 node_modules/
+package-lock.json
