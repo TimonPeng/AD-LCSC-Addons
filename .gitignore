@@ -3,3 +3,5 @@ Thumbs.db
 cache/
 __Previews/
 *.exe
+
+node_modules/

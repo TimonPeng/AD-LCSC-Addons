@@ -1,0 +1,9 @@
+{
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.tabSize": 2,
+  "eslint.validate": ["javascript"],
+  "eslint.format.enable": true,
+  "prettier.trailingComma": "none",
+  "prettier.quoteProps": "consistent"
+}
