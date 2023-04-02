@@ -13,9 +13,24 @@ You can use Inno Setup to compile it yourself.
 1. The generated Altium Design file format cannot be 100% complete, please make sure to check carefully after importing the schematic and PCB, the author does not guarantee that no errors will be generated!
 2. The author does not assume any responsibility for any damages caused by library errors and formatting errors! If you do not agree, please do not use it!
 3. Altium Designer 19 is not supported at the moment, the exported files need to be opened in Altium Designer 18 and below, **Altium Designer 17 is recommended**.
+4. The plugin works on Altium Designer 22.11.1
+
+## Using the plugin
+1. Launch the installer provided in the releases tab
+2. Get required dependencies and run the backend server
+```
+cd %userprofile%\documents\AD-LCSC-Addons\backend\
+npm install
+node index.js
+```
+
+The backend server needs to be running every time you want to use the plugin.
+
+## Known problems
+- Imported schematic does not feature ERC
+- Backend endpoint tends to freeze
 
 ## Optimization points
-
 - Altium Design version check
 - ~~Automatically set the maximum width of search results~~ (Finished)
 - ~~Enter search after typing~~ (Finished)

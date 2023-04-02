@@ -9,7 +9,7 @@ const lcsc = require("./jsapi.min.js");
 const app = express();
 app.use(bodyParser.json());
 app.use(morgan("combined"));
-const port = 80;
+const port = 1456; //seems like its free to use 
 
 app.get("/", (req, res) => {
   res.send(
@@ -23,7 +23,7 @@ app.post("/", (req, res) => {
   let httpResponse = {};
 
   request(
-    `https://lceda.cn/api/components/${id}`,
+    `https://easyeda.com/api/components/${id}`,
     function (error, response, body) {
       if (error) {
         httpResponse = {

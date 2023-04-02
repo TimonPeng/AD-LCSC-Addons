@@ -37,11 +37,16 @@ Source: ".\src\AD-LCSC-Addons.js"; DestDir: "{app}"; Flags: ignoreversion
 Source: ".\src\AD-LCSC-Addons.pas"; DestDir: "{app}"; Flags: ignoreversion
 Source: ".\src\config.json"; DestDir: "{app}"; DestName: "config.json"; Flags: ignoreversion; Check: IsEn() and not ConfigExisted();
 Source: ".\src\config_cn.json"; DestDir: "{app}"; DestName: "config.json"; Flags: ignoreversion; Check: IsCn () and not ConfigExisted();
+Source: ".\api\index.js"; DestDir: "{app}\backend"; DestName: "index.js"; Flags: ignoreversion; Check: IsCn () and not ConfigExisted();
+Source: ".\api\jsapi.min.js"; DestDir: "{app}\backend"; DestName: "jsapi.min.js"; Flags: ignoreversion; Check: IsCn () and not ConfigExisted();
+Source: ".\api\package.json"; DestDir: "{app}\backend"; DestName: "package.json"; Flags: ignoreversion; Check: IsCn () and not ConfigExisted();
+
 ; NOTE: Don't use "Flags: ignoreversion" on any shared system files
 
 [Dirs]
 Name: "{app}\cache"
 Name: "{app}\download"
+Name: "{app}\backend"
 
 [Icons]
 Name: "{group}\{cm:UninstallProgram,{#MyAppName}}"; Filename: "{uninstallexe}"
